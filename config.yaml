@@ -1,0 +1,11 @@
+llm:
+  provider: "auto"  # "auto" | "ollama" | "openai" | "offline"
+  model: "qwen2.5:3b-instruct"
+  temperature: 0
+  base_url: "http://127.0.0.1:11434"
+  openai_base_url: "https://api.openai.com/v1"
+  openai_api_key: ""
+  openai_model: "gpt-4o-mini"
+  timeout_seconds: 180
+  chunk_chars: 3500
+  pseudonymize_before_llm: true
